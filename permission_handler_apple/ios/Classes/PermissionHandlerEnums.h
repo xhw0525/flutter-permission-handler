@@ -9,118 +9,118 @@
 // Info.plist: [NSCalendarsUsageDescription, NSCalendarWriteOnlyAccessUsageDescription]
 // dart: PermissionGroup.calendar
 #ifndef PERMISSION_EVENTS
-    #define PERMISSION_EVENTS 0
+    #define PERMISSION_EVENTS 1
 #endif
 
 // ios: PermissionGroupReminders
 // Info.plist: NSRemindersFullAccessUsageDescription
 // dart: PermissionGroup.reminders
 #ifndef PERMISSION_REMINDERS
-    #define PERMISSION_REMINDERS 0
+    #define PERMISSION_REMINDERS 1
 #endif
 
 // ios: PermissionGroupContacts
 // Info.plist: NSContactsUsageDescription
 // dart: PermissionGroup.contacts
 #ifndef PERMISSION_CONTACTS
-    #define PERMISSION_CONTACTS 0
+    #define PERMISSION_CONTACTS 1
 #endif
 
 // ios: PermissionGroupCamera
 // Info.plist: NSCameraUsageDescription
 // dart: PermissionGroup.camera
 #ifndef PERMISSION_CAMERA
-    #define PERMISSION_CAMERA 0
+    #define PERMISSION_CAMERA 1
 #endif
 
 // ios: PermissionGroupMicrophone
 // Info.plist: NSMicrophoneUsageDescription
 // dart: PermissionGroup.microphone
 #ifndef PERMISSION_MICROPHONE
-    #define PERMISSION_MICROPHONE 0
+    #define PERMISSION_MICROPHONE 1
 #endif
 
 // ios: PermissionGroupSpeech
 // Info.plist: NSSpeechRecognitionUsageDescription
 // dart: PermissionGroup.speech
 #ifndef PERMISSION_SPEECH_RECOGNIZER
-    #define PERMISSION_SPEECH_RECOGNIZER 0
+    #define PERMISSION_SPEECH_RECOGNIZER 1
 #endif
 
 // ios: PermissionGroupPhotos
 // Info.plist: NSPhotoLibraryUsageDescription
 // dart: PermissionGroup.photos
 #ifndef PERMISSION_PHOTOS
-    #define PERMISSION_PHOTOS 0
+    #define PERMISSION_PHOTOS 1
 #endif
 
 // ios: PermissionGroupPhotosAddOnly
 // Info.plist: NSPhotoLibraryAddUsageDescription
 // dart: PermissionGroup.photosAddOnly
 #ifndef PERMISSION_PHOTOS_ADD_ONLY
-    #define PERMISSION_PHOTOS_ADD_ONLY 0
+    #define PERMISSION_PHOTOS_ADD_ONLY 1
 #endif
 
 // ios: [PermissionGroupLocation, PermissionGroupLocationAlways, PermissionGroupLocationWhenInUse]
 // Info.plist: [NSLocationUsageDescription, NSLocationAlwaysAndWhenInUseUsageDescription, NSLocationWhenInUseUsageDescription]
 // dart: [PermissionGroup.location, PermissionGroup.locationAlways, PermissionGroup.locationWhenInUse]
 #ifndef PERMISSION_LOCATION
-    #define PERMISSION_LOCATION 0
+    #define PERMISSION_LOCATION 1
 #endif
 
 // ios: PermissionGroupNotification
 // dart: PermissionGroup.notification
 #ifndef PERMISSION_NOTIFICATIONS
-    #define PERMISSION_NOTIFICATIONS 0
+    #define PERMISSION_NOTIFICATIONS 1
 #endif
 
 // ios: PermissionGroupMediaLibrary
 // Info.plist: [NSAppleMusicUsageDescription, kTCCServiceMediaLibrary]
 // dart: PermissionGroup.mediaLibrary
 #ifndef PERMISSION_MEDIA_LIBRARY
-    #define PERMISSION_MEDIA_LIBRARY 0
+    #define PERMISSION_MEDIA_LIBRARY 1
 #endif
 
 // ios: PermissionGroupSensors
 // Info.plist: NSMotionUsageDescription
 // dart: PermissionGroup.sensors
 #ifndef PERMISSION_SENSORS
-    #define PERMISSION_SENSORS 0
+    #define PERMISSION_SENSORS 1
 #endif
 
 // ios: PermissionGroupBluetooth
 // Info.plist: [NSBluetoothAlwaysUsageDescription, NSBluetoothPeripheralUsageDescription]
 // dart: PermissionGroup.bluetooth
 #ifndef PERMISSION_BLUETOOTH
-    #define PERMISSION_BLUETOOTH 0
+    #define PERMISSION_BLUETOOTH 1
 #endif
 
 // ios: PermissionGroupAppTrackingTransparency
 // Info.plist: [NSUserTrackingUsageDescription]
 // dart: PermissionGroup.appTrackingTransparency
 #ifndef PERMISSION_APP_TRACKING_TRANSPARENCY
-    #define PERMISSION_APP_TRACKING_TRANSPARENCY 0
+    #define PERMISSION_APP_TRACKING_TRANSPARENCY 1
 #endif
 
 // ios: PermissionGroupCriticalAlerts
 // Info.plist: UNAuthorizationOptionCriticalAlert
 // dart: PermissionGroup.criticalAlerts
 #ifndef PERMISSION_CRITICAL_ALERTS
-    #define PERMISSION_CRITICAL_ALERTS 0
+    #define PERMISSION_CRITICAL_ALERTS 1
 #endif
 
 // ios: PermissionGroupAssistant
 // Info.plist: [NSSiriUsageDescription]
 // dart: PermissionGroup.assistant
 #ifndef PERMISSION_ASSISTANT
-    #define PERMISSION_ASSISTANT 0
+    #define PERMISSION_ASSISTANT 1
 #endif
 
 // ios: PermissionGroupCalendarFullAccess
 // Info.plist: [NSCalendarsFullAccessUsageDescription]
 // dart: PermissionGroup.calendarFullAccess
 #ifndef PERMISSION_EVENTS_FULL_ACCESS
-    #define PERMISSION_EVENTS_FULL_ACCESS 0
+    #define PERMISSION_EVENTS_FULL_ACCESS 1
 #endif
 
 typedef NS_ENUM(int, PermissionGroup) {
